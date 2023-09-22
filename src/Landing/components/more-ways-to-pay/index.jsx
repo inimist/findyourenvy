@@ -1,5 +1,5 @@
 import React from 'react'
-import MoneyTtransferIcon from "../../assets/images/money-transfer.png"
+import MoneyTtransferIcon from "../../../assets/images/money-transfer.png"
  const MoreWaysPay = () => {
   return (
     <section className="give-your-client">

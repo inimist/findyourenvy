@@ -2,7 +2,7 @@ import React from 'react';
 import { ClientsPaymentPlans } from "./ClientsPaymentPlans";
 import { DailyPayouts } from "./DailyPayouts";
 import { YourCustomers } from "./YourCustomers";
-import "../../assets/css/morewaystopay.css"
+import "../../../assets/css/morewaystopay.css"
 
 export const PlanPayOutCutomer = () => {
   return (

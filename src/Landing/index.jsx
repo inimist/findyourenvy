@@ -1,10 +1,10 @@
 import React from "react";
-import HeroSection from "../components/hero_section";
-import { PlanPayOutCutomer } from "../components/plan_payouts_customers/index";
-import  MoreWaysToPay  from "../components/more_way_to_pay/index";
-import { EnvyPaymentMethods } from "../components/envy_payment_methods/Index";
-import { SecureSetup } from "../components/secure_setup";
-import EnvyPayStrip from '../components/envy_pay_stripe/index'
+import HeroSection from "./components/hero-section";
+import { PlanPayOutCutomer } from "./components/plan-payouts-customers";
+import  MoreWaysToPay  from "./components/more-ways-to-pay";
+import {EnvyPaymentMethods}  from "./components/payment-methods";
+import { SecureSetup } from "./components/secure-setup";
+import EnvyPayStrip from './components/paystripe'
 
 
 export const LandingPage = () => {

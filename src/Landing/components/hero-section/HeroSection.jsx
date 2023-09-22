@@ -1,6 +1,6 @@
 import React from 'react';
-import EnvyStripeLogo from "../../assets/images/envy-pay-stripe-logo.png"
-import AppleAppIcon from "../../assets/images/apple-app-icon.svg"
+import EnvyStripeLogo from "../../../assets/images/envy-pay-stripe-logo.png"
+import AppleAppIcon from "../../../assets/images/apple-app-icon.svg"
 
 
 export const HeroSection = () => {

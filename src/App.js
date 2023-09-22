@@ -1,5 +1,5 @@
 
-import { LandingPage } from './Landing/LandingPage';
+import {LandingPage}  from './Landing';
 
 function App() {
   return (
