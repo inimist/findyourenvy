@@ -23,6 +23,8 @@ margin:auto;
 .justify-content-space-evenly{justify-content: space-evenly;}
 .align-items-center{align-items: center;}
 .text-align-end{text-align:end;}
+.flex-d-column{flex-direction: column;}
+
 
 
 
@@ -34,6 +36,7 @@ margin:auto;
   width:100%;
   background-size: cover;
 }
+
 
 .banner-section .left-box{
   width: 40%;
@@ -53,20 +56,24 @@ p.lowest{font-size: 38px;  margin-top: 20px;}
 
 .join-revolution{background-color: #E0FCF9;padding:30px;text-align:center;}
 
+.join-revolution h2{font-size: 36px;}
+
 .three-column-layout .col{text-align: center;}
 
 .three-column-layout h2{font-size: 22px;}
 
-.box-wrapper img{margin: 20px 10px 0 10px;}
+.offer-images img{margin: 20px 10px 16px 10px;}
 
 .three-column-layout p{font-size: 21px;line-height: 35px;}
 
 .give-your-client{background-color: #000;padding:30px 0;}
 
-.give-your-client .left-box{width:30%;}
-.give-your-client .right-box{width:70%;color: #fff;}
+.give-your-client .left-box{width:20%;}
+.give-your-client .right-box{width:80%;color: #fff;margin-right: 70px;}
 
 .client-box .right-box h2{margin-left: 25px;font-size: 36px;}
+
+.card .row.d-flex{justify-content: center;column-gap: 5px;}
 
 .card{text-align: center;padding: 50px 0 ;}
 
@@ -82,7 +89,7 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+.apple-app-icon{width:168px}
 table th{padding:20px 0;}
 
 table th h2{font-size: 40px;}
@@ -124,9 +131,15 @@ table td span{font-size: 27px;}
 .footer h2{font-size: 40px;text-align: center;margin-bottom: 30px;}
 
 
+
+
+
+
+/* ---------------------- Responsive for mobile ----------------------*/
+
 @media only screen and (max-width: 420px) {
 .banner-section .left-box{ width: 100%;text-align: center;}
-.d-flex{flex-wrap: wrap;}
+
 .lowest-price p{font-size: 26px;}
 
 p.lowest {margin-top: 10px;padding-top: 8px;}
@@ -134,7 +147,7 @@ p.lowest {margin-top: 10px;padding-top: 8px;}
 .banner-section .left-box{background-color:#000;}
 
 .lowest-rate{background-image: url('../images/envy-hero-mobile.png');
-width:100%;
+  width:100%;
 background-size: cover;
 min-height: 800px;
 }
@@ -155,5 +168,32 @@ padding: 0 23px;
 .banner-section .left-box .bottom-content h2 {font-size: 44px;margin-top: 10px;}
 .banner-section .left-box .bottom-content span { font-size: 14px;}
 .banner-section .left-box .bottom-content p.accept{font-size: 19px;margin-top: 15px;letter-spacing: 0.38px;}
+.join-revolution h2{font-size: 26px;letter-spacing: 0.52px;}
+.offer-wrapper {display: flex;flex-direction: column-reverse;}
 
+.offer-wrapper .offer-text span.offer {display: none;}
+
+.three-column-layout .d-flex{    flex-wrap: wrap;}
+.three-column-layout.p1{padding: 20px;}
+.three-column-layout h2 {font-size: 25px;margin: 20px 0 10px 0;}
+.three-column-layout p {font-size: 18px;}
+.three-column-layout p.get{font-weight: 600;margin: 5px 0;}
+.offer-images img { margin: 20px 10px 0 10px;}
+.col.top-bdr{border-top: 2px solid #BABABA;}
+.three-column-layout .col {width: 100%;}
+.padding-bottom{margin-bottom: 20px;}
+.give-your-client .client-box.d-flex{flex-wrap: wrap;}
+.give-your-client .left-box, .give-your-client .right-box{width: 100%; text-align: center; margin: 0 30px;}
+.client-box .right-box h2 { font-size: 24px;margin: 0;letter-spacing: 0.48px;padding: 0; margin-top: 20px;}
+.card .row.d-flex{flex-wrap: wrap;}
+.card p {font-size: 18px;}
+.mobiles-wrapper {
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fast-secure h2{order:2;font-size: 22px;}
+img.apple-app-icon {
+  margin-bottom: 30px;
+}
 }
