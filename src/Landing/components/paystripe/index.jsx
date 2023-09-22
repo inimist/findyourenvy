@@ -2,22 +2,36 @@ import React from 'react'
 import EnvyPayLogo from "../../../assets/images/envyPay.svg"
  const index = () => {
   return (
-    <section className="Competitive-Fees">
-    <div className="first-row d-flex">
-      <div className="item1 bg-colr"><img src={EnvyPayLogo} width="70%" /></div>
-      <div className="item2 brd-right"><h3>Square</h3></div>
-      <div className="item3 brd-right"><h3>PayPal</h3></div>
-      <div className="item4 brd-right"><h3>Venmo</h3></div>
-      <div className="item5"></div>
-    </div>
-    <div className="second-row d-flex">
-      <div className="item1 bg-colr"><h1>2.25% + .15¢</h1></div>
-      <div className="item2 brd-right"><h3>2.9% +.30¢</h3></div>
-      <div className="item3 brd-right"><h3>2.9% +.30¢</h3></div>
-      <div className="item4 brd-right"><p>2% cash payments<br/>3% credit cards</p></div>
-      <div className="item5"></div>
-    </div>
-  </section>
+      <section className="Competitive-Fees">
+        <div className="top-box">
+          <h2>Competitive Processing Fees</h2>
+          <p>Best local services payment processor comparison</p>
+        </div>
+        <div className="table">
+          <div className="envy-wrapper d-block col-padding w-30">
+          <div className="col bg-colr box-padding-top"><img className="w-70" src={EnvyPayLogo}/></div>
+          <div className="col bg-colr box-padding-bottom"><h2>2.25% + .15¢</h2></div>
+        </div>
+        
+        <div className="envy-wrapper phone-col-width brd-right w-20">
+          <div className="col"><h3>Square</h3></div>
+          <div className="col"><p>2.9% +.30¢</p></div>
+        </div>
+        <div className="envy-wrapper phone-col-width brd-right w-20">
+          <div className="col"><h3>PayPal</h3></div>
+          <div className="col"><p>2.9% +.30¢</p></div>
+        </div>
+        <div className="envy-wrapper phone-col-width brd-right w-20">
+          <div className="col"><h3>Venmo</h3></div>
+          <div className="col"><p className="span">2% cash payments<br/>3% credit cards</p></div>
+        </div>
+        <div className="envy-wrapper blank-box w-10">
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
+
+        </div>
+    </section>
   )
 }
 export default index

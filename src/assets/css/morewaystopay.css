@@ -37,7 +37,6 @@ margin:auto;
   background-size: cover;
 }
 
-
 .banner-section .left-box{
   width: 40%;
   padding: 70px 0 75px 0;
@@ -81,24 +80,27 @@ p.lowest{font-size: 38px;  margin-top: 20px;}
 
 .Competitive-Fees {text-align: center;}
 .Competitive-Fees .top-box h2{font-size: 40px;}
-.Competitive-Fees .top-box p{font-size: 26px;}
+.Competitive-Fees .top-box p{font-size: 26px;margin-bottom: 50px;}
 
-table{margin-top: 40px;}
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.table{ display: flex;border-top: 1px solid;}
+
+.table .col{height: 100px;border-bottom: 1px solid;    padding: 24px 0;height: 60px;}
+
+.table .box-wrapper{
+  width: 20%;
+  text-align: center;
 }
-.apple-app-icon{width:168px}
+
 table th{padding:20px 0;}
 
-table th h2{font-size: 40px;}
+.Competitive-Fees .table h3{font-size: 30px;}
 
-table td{font-size: 39px;font-family: "poppins", Sans-serif;}
+.Competitive-Fees .table p{font-size: 29px;}
 
-table td h1{font-size: 53px;}
+.Competitive-Fees .table h2{font-size: 43px;}
 
-table td span{font-size: 27px;}
+.Competitive-Fees .table p.span{font-size: 22px;}
 
 .bg-colr{background-color: #E0FCF9;}
 .brd-right{border-right: 1px solid;}
@@ -137,14 +139,14 @@ table td span{font-size: 27px;}
 
 /* ---------------------- Responsive for mobile ----------------------*/
 
-@media only screen and (max-width: 420px) {
-.banner-section .left-box{ width: 100%;text-align: center;}
+@media only screen and (max-width: 821px) {
+  .banner-section .left-box{ width: 100%;text-align: center;}
 
-.lowest-price p{font-size: 26px;}
-
-p.lowest {margin-top: 10px;padding-top: 8px;}
-
-.banner-section .left-box{background-color:#000;}
+  .lowest-price p{font-size: 26px;}
+  
+  p.lowest {margin-top: 10px;padding-top: 8px;}
+  
+  .banner-section .left-box{background-color:#000;}
 
 .lowest-rate{background-image: url('../images/envy-hero-mobile.png');
   width:100%;
@@ -159,12 +161,12 @@ min-height: 800px;
 .banner-section .left-box h2 { font-size:44px;}
 
 .bottom-content{ 
-display: flex;
-flex-direction: column-reverse;
-padding: 0 23px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 23px;
 }
 
-.bottom-content p{margin-top: 0;font-size: 16px;letter-spacing: 0.32px;}
+.bottom-content p{margin-top: 20px;font-size: 16px;letter-spacing: 0.32px;}
 .banner-section .left-box .bottom-content h2 {font-size: 44px;margin-top: 10px;}
 .banner-section .left-box .bottom-content span { font-size: 14px;}
 .banner-section .left-box .bottom-content p.accept{font-size: 19px;margin-top: 15px;letter-spacing: 0.38px;}
@@ -186,14 +188,40 @@ padding: 0 23px;
 .give-your-client .left-box, .give-your-client .right-box{width: 100%; text-align: center; margin: 0 30px;}
 .client-box .right-box h2 { font-size: 24px;margin: 0;letter-spacing: 0.48px;padding: 0; margin-top: 20px;}
 .card .row.d-flex{flex-wrap: wrap;}
-.card p {font-size: 18px;}
-.mobiles-wrapper {
-  margin-top: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+.card p {font-size: 18px;padding: 0 20px;}
+.envy-wrapper{display: flex;width: 100% !important;justify-content: space-between;}
+.table .envy-wrapper {justify-content: space-around;}
+.table {display: block;}
+.Competitive-Fees .table h3 {font-size: 22px;}
+.Competitive-Fees .table p.span{font-size: 13px !important;}
+.envy-wrapper.d-block {display: block;}
+.table .col{border-bottom: 0;height: auto;}
+.envy-wrapper{border-bottom: 1px solid;}
+.envy-wrapper.blank-box{display: none;}
+.Competitive-Fees .table p {font-size: 18px;}
+.bottom-border-content .envy-wrapper .col{width:50%;border-right: 1px solid;}
+.brd-right {border-right: 0;}
+ .envy-wrapper {position: relative;}
+ .phone-col-width:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: #000;
+ }
+
+.col.bg-colr.box-padding-top{padding: 0;}
+.col.bg-colr.box-padding-bottom{padding: 0;}
+.box-padding-top{padding-top: 40px !important;}
+.box-padding-bottom{padding-bottom: 30px !important;}
+
+
+.w-70{width: 70%;}
+.w-30{width: 30%;}
+.w-20{width: 20%;}
+.w-10{width: 10%;}
+.mobiles-wrapper {margin-top: 30px;justify-content: center;flex-wrap: wrap;}
 .fast-secure h2{order:2;font-size: 22px;}
-img.apple-app-icon {
-  margin-bottom: 30px;
-}
+img.apple-app-icon {margin-bottom: 30px;}
+.footer h2{font-size: 22px;}
 }
