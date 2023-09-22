@@ -1,0 +1,83 @@
+*{margin:0;padding:0;}
+.banner-section{
+  background-image: url('../images/hero-banner.jpg');
+  width:100%;
+  background-size: cover;
+}
+.container{
+  max-width:1200px;
+  margin:auto;
+  }
+  
+  .d-flex{display: flex;}
+  .justify-content{justify-content:space-between;}
+  .justify-content-center{justify-content: center;}
+  .justify-content-space-evenly{justify-content: space-evenly;}
+  .align-items-center{align-items: center;}
+  .text-align-end{text-align:end;}
+  
+  
+  .p1{padding: 50px;}
+  .mb{margin-bottom: 20px;}
+  
+
+  
+  .banner-section .left-box{
+      width: 40%;
+      padding: 70px 0 75px 0;
+      color: #fff;
+  }
+  
+  .bottom-text img{margin-top: 30px;}
+  
+  p.lowest{font-size: 38px;  margin-top: 20px;}
+  
+  .banner-section .left-box h2{font-size: 57px;color:#E0FCF9;margin-top: 30px;}
+  
+  .banner-section .left-box span{font-size: 24px;font-family: "poppins", Sans-serif;font-weight: 600;}
+  
+  .bottom-text p{font-size: 26px;margin-top: 30px;}
+  
+  .join-revolution{background-color: #E0FCF9;padding:30px;text-align:center;}
+  
+  .three-column-layout .col{text-align: center;}
+  
+  .three-column-layout h2{font-size: 22px;}
+  
+  .box-wrapper img{margin: 20px 10px 0 10px;}
+  
+  .three-column-layout p{font-size: 21px;line-height: 35px;}
+  
+  .give-your-client{background-color: #000;padding:30px 0;}
+  
+  .give-your-client .left-box{width:30%;}
+  .give-your-client .right-box{width:70%;color: #fff;}
+  
+  .client-box .right-box h2{margin-left: 25px;font-size: 36px;}
+  
+  .card{text-align: center;padding: 50px 0 ;}
+  
+  .card p{font-size: 20px;margin-top: 20px;}
+  
+  .Competitive-Fees {text-align: center;}
+  .Competitive-Fees .top-box h2{font-size: 40px;}
+  .Competitive-Fees .top-box p{font-size: 26px;}
+  
+  table{margin-top: 40px;}
+  
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  
+    table th{padding:20px 0;}
+    
+  table th h2{font-size: 40px;}
+  
+  table td{font-size: 39px;font-family: "poppins", Sans-serif;}
+  
+  table td h1{font-size: 53px;}
+  
+  table td span{font-size: 27px;}
+  
+  .th-bg-colr{background-color: #E0FCF9;}
