@@ -1,83 +1,159 @@
 *{margin:0;padding:0;}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins/Poppins-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins/Poppins-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins/Poppins-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/poppins/Poppins-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins/Poppins-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  h1,h2,h3,h4,h5,h6,p{font-family: "poppins", Sans-serif;}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.d-flex{display: flex;}
+.justify-content{justify-content:space-between;}
+.justify-content-center{justify-content: center;}
+.justify-content-space-evenly{justify-content: space-evenly;}
+.align-items-center{align-items: center;}
+.text-align-end{text-align:end;}
+
+
+
+.p1{padding: 50px;}
+.mb{margin-bottom: 20px;}
+
 .banner-section{
   background-image: url('../images/hero-banner.jpg');
   width:100%;
   background-size: cover;
 }
-.container{
-  max-width:1200px;
-  margin:auto;
-  }
-  
-  .d-flex{display: flex;}
-  .justify-content{justify-content:space-between;}
-  .justify-content-center{justify-content: center;}
-  .justify-content-space-evenly{justify-content: space-evenly;}
-  .align-items-center{align-items: center;}
-  .text-align-end{text-align:end;}
-  
-  
-  .p1{padding: 50px;}
-  .mb{margin-bottom: 20px;}
-  
 
-  
-  .banner-section .left-box{
-      width: 40%;
-      padding: 70px 0 75px 0;
-      color: #fff;
-  }
-  
-  .bottom-text img{margin-top: 30px;}
-  
-  p.lowest{font-size: 38px;  margin-top: 20px;}
-  
-  .banner-section .left-box h2{font-size: 57px;color:#E0FCF9;margin-top: 30px;}
-  
-  .banner-section .left-box span{font-size: 24px;font-family: "poppins", Sans-serif;font-weight: 600;}
-  
-  .bottom-text p{font-size: 26px;margin-top: 30px;}
-  
-  .join-revolution{background-color: #E0FCF9;padding:30px;text-align:center;}
-  
-  .three-column-layout .col{text-align: center;}
-  
-  .three-column-layout h2{font-size: 22px;}
-  
-  .box-wrapper img{margin: 20px 10px 0 10px;}
-  
-  .three-column-layout p{font-size: 21px;line-height: 35px;}
-  
-  .give-your-client{background-color: #000;padding:30px 0;}
-  
-  .give-your-client .left-box{width:30%;}
-  .give-your-client .right-box{width:70%;color: #fff;}
-  
-  .client-box .right-box h2{margin-left: 25px;font-size: 36px;}
-  
-  .card{text-align: center;padding: 50px 0 ;}
-  
-  .card p{font-size: 20px;margin-top: 20px;}
-  
-  .Competitive-Fees {text-align: center;}
-  .Competitive-Fees .top-box h2{font-size: 40px;}
-  .Competitive-Fees .top-box p{font-size: 26px;}
-  
-  table{margin-top: 40px;}
-  
-  table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-  
-    table th{padding:20px 0;}
-    
-  table th h2{font-size: 40px;}
-  
-  table td{font-size: 39px;font-family: "poppins", Sans-serif;}
-  
-  table td h1{font-size: 53px;}
-  
-  table td span{font-size: 27px;}
-  
-  .th-bg-colr{background-color: #E0FCF9;}
+.banner-section .left-box{
+  width: 40%;
+  padding: 70px 0 75px 0;
+  color: #fff;
+}
+
+.bottom-content img{margin-top: 30px;}
+
+p.lowest{font-size: 38px;  margin-top: 20px;}
+
+.banner-section .left-box .bottom-content h2{font-size: 57px;color:#E0FCF9;margin-top: 30px;}
+
+.banner-section .left-box .bottom-content span{font-size: 24px;font-family: "poppins", Sans-serif;font-weight: 600;}
+
+.bottom-content p{font-size: 26px;margin-top: 30px;}
+
+.join-revolution{background-color: #E0FCF9;padding:30px;text-align:center;}
+
+.three-column-layout .col{text-align: center;}
+
+.three-column-layout h2{font-size: 22px;}
+
+.box-wrapper img{margin: 20px 10px 0 10px;}
+
+.three-column-layout p{font-size: 21px;line-height: 35px;}
+
+.give-your-client{background-color: #000;padding:30px 0;}
+
+.give-your-client .left-box{width:30%;}
+.give-your-client .right-box{width:70%;color: #fff;}
+
+.client-box .right-box h2{margin-left: 25px;font-size: 36px;}
+
+.card{text-align: center;padding: 50px 0 ;}
+
+.card p{font-size: 20px;margin-top: 20px;}
+
+.Competitive-Fees {text-align: center;}
+.Competitive-Fees .top-box h2{font-size: 40px;}
+.Competitive-Fees .top-box p{font-size: 26px;}
+
+table{margin-top: 40px;}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table th{padding:20px 0;}
+
+table th h2{font-size: 40px;}
+
+table td{font-size: 39px;font-family: "poppins", Sans-serif;}
+
+table td h1{font-size: 53px;}
+
+table td span{font-size: 27px;}
+
+.bg-colr{background-color: #E0FCF9;}
+.brd-right{border-right: 1px solid;}
+
+.Competitive-Fees .item1{width: 30%;padding: 20px;}
+.Competitive-Fees .item2{width: 20%;padding: 20px;}
+.Competitive-Fees .item3{width: 20%;padding: 20px;}
+.Competitive-Fees .item4{width: 20%;padding: 20px;}
+.Competitive-Fees .item5{width: 10%;padding: 20px;}
+
+.Competitive-Fees .first-row {border-top: 1px solid;border-bottom: 1px solid;}
+.Competitive-Fees .second-row{border-bottom: 1px solid;}
+
+.Competitive-Fees .first-row h3{font-size: 40px;}
+
+.Competitive-Fees .second-row h1{font-size: 33px;}
+
+.Competitive-Fees .second-row h3{font-size: 39px;}
+
+.Competitive-Fees .second-row p{font-size: 21px;}
+
+.fast-secure{text-align: center;padding: 50px 0;}
+
+.fast-secure h2{font-size: 40px;margin-bottom: 15px;}
+
+.mobiles-wrapper{margin-top: 30px;justify-content: space-between;}
+
+.mobiles-wrapper .mobile p{margin-bottom: 20px;font-size: 20px;}
+
+.footer h2{font-size: 40px;text-align: center;margin-bottom: 30px;}
+
+
+@media only screen and (max-width: 420px) {
+.banner-section .left-box{ width: 100%;text-align: center;}
+.d-flex{flex-wrap: wrap;}
+.lowest-price p{font-size: 26px;}
+
+p.lowest {margin-top: 10px;padding-top: 8px;}
+
+.banner-section .left-box{background-color:#000;}
+
+.lowest-rate{background-image: url('../images/envy-hero-mobile.png');
+width:100%;
+background-size: cover;
+min-height: 800px;
+}
+
+.banner-section .left-box{padding: 25px 0 25px 0;}
+
+.lowest-rate p{font-size: 26px;letter-spacing: 0.52px;}
+
+.banner-section .left-box h2 { font-size:44px;}
+
+.bottom-content{ 
+display: flex;
+flex-direction: column-reverse;
+padding: 0 23px;
+}
+
+.bottom-content p{margin-top: 0;font-size: 16px;letter-spacing: 0.32px;}
+.banner-section .left-box .bottom-content h2 {font-size: 44px;margin-top: 10px;}
+.banner-section .left-box .bottom-content span { font-size: 14px;}
+.banner-section .left-box .bottom-content p.accept{font-size: 19px;margin-top: 15px;letter-spacing: 0.38px;}
+
+}

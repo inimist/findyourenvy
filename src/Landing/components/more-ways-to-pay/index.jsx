@@ -4,16 +4,16 @@ import MoneyTtransferIcon from "../../../assets/images/money-transfer.png"
   return (
     <section className="give-your-client">
       <div className="container">
-        <div className="client-box d-flex">
-          <div className="left-box">
-            <img src={MoneyTtransferIcon} />
+        <div class="client-box d-flex align-items-center">
+          <div className="left-box text-align-end">
+          <img src={MoneyTtransferIcon} />
           </div>
           <div className="right-box">
-            <h2>Give your clients more ways to pay with pay links or a QR code</h2>
+            <h2>Give your clients more ways to pay<br/> with pay links or a QR code</h2>
           </div>
         </div>
       </div>
-  </section>
+    </section>
   )
 }
 export default MoreWaysPay
