@@ -229,4 +229,7 @@ img.apple-app-icon {margin-bottom: 30px;}
   .bottom-content p {
       margin-top: 0;
   }
+  .mobiles-wrapper .mobile p {
+    margin-top: 15px;
+  }
 }
