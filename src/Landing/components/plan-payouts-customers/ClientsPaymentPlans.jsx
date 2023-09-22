@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../assets/css/clientspaymentplans.css";
 import ApterPayIcon from "../../../assets/images/afterpay.svg"
 import KlarnaIcon from "../../../assets/images/klarna.svg"
 export const ClientsPaymentPlans = () => {

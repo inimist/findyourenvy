@@ -10,7 +10,7 @@ import EnvyPayStrip from './components/paystripe'
 export const LandingPage = () => {
   return (
     <>
-      <div style={{overflow:"hidden"}}>
+      <div>
         <HeroSection />
         <PlanPayOutCutomer />
         <MoreWaysToPay />
