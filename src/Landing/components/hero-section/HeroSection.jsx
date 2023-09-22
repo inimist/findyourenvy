@@ -15,7 +15,7 @@ export const HeroSection = () => {
             </div>
             <div className="bottom-content">
                 <div className="box-1">
-                <h2>2.25% + .15¢</h2>
+                <h2>2.25% <span className="plus-sign">+</span> .15¢</h2>
                 <span>No monthly fees</span>
                 <p className="accept">Accept contactless payments and offer convenient payment plans to attract and retain customers.</p>
                 <img src={AppleAppIcon} />
